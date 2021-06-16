@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.highlighted{
+
+}
+.folders{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.folder{
+    width: 70px;
+    border: 1px solid black;
+    margin: 3px;
+    border-radius: 4px;
+}
